@@ -1,5 +1,10 @@
-$gray : green;
+$image : "http://2static4.fjcdn.com/comments/Grey+jedi+are+the+best+jedi+_fc954c364dc3ae053a55dd021b59de3c.jpg";
 
 body {
-  background: $gray;
+  background-image: url($image);
+  color: limegreen;
+}
+
+.row {
+  background: black;
 }
